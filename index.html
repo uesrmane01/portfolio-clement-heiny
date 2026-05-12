@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Clément Heiny</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation fixe -->
+    <nav class="fixed-nav">
+        <div class="nav-container">
+            <h1 class="nav-logo">CH</h1>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                <li><a href="#missions" class="nav-link">Missions</a></li>
+                <li><a href="#epreuve-e5" class="nav-link">Épreuve E5</a></li>
+                <li><a href="#e6-systeme" class="nav-link">E6 Système</a></li>
+                <li><a href="#e6-reseau" class="nav-link">E6 Réseau</a></li>
+                <li><a href="#veille" class="nav-link">Veille Technologique</a></li>
+                <li><a href="#bts-sio" class="nav-link">BTS SIO</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sections défilantes -->
+    <main class="main-content">
+        <!-- Section Accueil -->
+        <section id="accueil" class="section-full">
+            <div class="section-container">
+                <div class="header-hero">
+                    <h1 class="hero-title">Mon parcours</h1>
+                    <p class="hero-subtitle">Clément Heiny</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="info-box">
+                            <h3>À propos de moi</h3>
+                            <p>
+                                Je m'appelle Clement HEINY, et je suis actuellement étudiant en deuxième année de BTS SIO (Services Informatiques aux Organisations), option Solutions d'Infrastructure, Systèmes et Réseaux (SISR), au CFA Ingetis.
+                            </p>
+                            <p>
+                                Passionné par les nouvelles technologies, j'ai choisi cette spécialité pour approfondir mes connaissances et compétences dans la conception, la mise en place et la gestion d'infrastructures réseau et de systèmes informatiques.
+                            </p>
+                            <p>
+                                Au cours de ma formation, j'ai acquis des compétences techniques solides en administration réseau, en sécurisation des systèmes d'information, ainsi qu'en déploiement de solutions serveur. J'ai également eu l'opportunité de travailler sur des projets concrets lors de stages en entreprise.
+                            </p>
+                            <p>
+                                Mon objectif professionnel est de devenir administrateur système et réseau, afin de contribuer à la sécurisation et à l'optimisation des systèmes d'information des organisations.
+                            </p>
+                            <p>
+                                Je suis motivé, curieux, et prêt à relever de nouveaux défis pour parfaire mes compétences et contribuer à l'évolution de l'IT au sein d'une équipe dynamique.
+                            </p>
+                            <p>
+                                <strong>Clement HEINY</strong>
+                            </p>
+                        </div>
+                        
+                        <div class="cv-section">
+                        <div class="pdf-container">
+                            <div class="pdf-display" id="cvDisplay">
+                                <div class="pdf-header">
+                                    <h3>Mon CV</h3>
+                                    <button class="download-btn" onclick="window.open('image/cv.pdf', '_blank')">
+                                        <i class="fas fa-download"></i>
+                                        Télécharger
+                                    </button>
+                                </div>
+                                <div class="pdf-content">
+                                    <img src="image/cv_page-0001.jpg" alt="CV Clément Heiny" title="CV Clément Heiny">
+                                </div>
+                            </div>
+                            <div class="pdf-placeholder" id="cvPlaceholder" style="display: none;">
+                                <i class="fas fa-file-pdf"></i>
+                                <h3>Mon CV</h3>
+                                <p>Le fichier CV n'est pas encore disponible</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Missions -->
+        <section id="missions" class="section-full">
+            <div class="section-container">
+                <h2 class="section-title">Missions professionnelles</h2>
+                <div class="missions-content">
+                    <div class="info-box">
+                        <h3>Présentation de l'entreprise</h3>
+                        <p>
+                            JLI International / MyMobility est une entreprise située à Vert Saint Denis spécialisée dans les solutions de mobilité et les services destinés aux professionnels.
+                        </p>
+                        <p>
+                            Durant mon stage, j'ai occupé un poste d'assistant au sein du service DSI aux côtés de mon supérieur, Luis Jimenez.
+                        </p>
+                        <p>
+                            Cette expérience m'a permis de découvrir le fonctionnement d'un environnement informatique en entreprise ainsi que la gestion des systèmes, du support technique et de certaines tâches liées aux réseaux et aux outils professionnels.
+                        </p>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3>Missions principales</h3>
+                        <ul>
+                            <li>Création de logigrammes pour formaliser et visualiser les processus internes, ce qui améliore la documentation et la compréhension des workflows.</li>
+                            <li>Préparation et déploiement de téléphones professionnels pour les nouveaux collaborateurs, incluant configuration, installation d'applications et sécurité des terminaux.</li>
+                            <li>Suivi d'un collaborateur en gestion et maintenance du réseau, observation et participation aux interventions sur le réseau, dépannage et gestion des incidents.</li>
+                            <li>Analyse et résolution de problèmes dans des logiciels d'automatisation (Power Apps), diagnostic des erreurs et proposition de solutions.</li>
+                            <li>Déploiement et installation de Windows 11 via clé bootable pour les postes de travail.</li>
+                            <li>Brassage de baie informatique pour maintenance et optimisation des équipements serveurs.</li>
+                            <li>Ajout et suppression d'utilisateurs sur un Active Directory.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3>Compétences développées</h3>
+                        <ul>
+                            <li>Documentation et formalisation de procédures</li>
+                            <li>Gestion de parc informatique et déploiement d'équipements</li>
+                            <li>Compréhension des infrastructures réseau et de la maintenance</li>
+                            <li>Diagnostic et résolution de problèmes techniques</li>
+                            <li>Travail en équipe et suivi des procédures IT</li>
+                            <li>Administration système Windows 11 et déploiement via clé bootable</li>
+                            <li>Gestion des baies informatiques et maintenance physique des serveurs</li>
+                            <li>Administration Active Directory (ajout/suppression utilisateurs)</li>
+                            <li>Déploiement et configuration de téléphones professionnels</li>
+                            <li>Automatisation avec Power Apps et résolution de problèmes logiciels</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Épreuve E5 -->
+        <section id="epreuve-e5" class="section-full">
+            <div class="section-container">
+                <h2 class="section-title">Épreuve E5 - Parcours de professionnalisation</h2>
+                <div class="epreuve-content">
+                    <div class="info-box">
+                        <h3>Présentation de l'épreuve</h3>
+                        <p>
+                            L'épreuve E5 évalue la capacité à analyser les besoins d'une organisation, à proposer des solutions informatiques adaptées et à mettre en œuvre ces solutions dans un contexte professionnel.
+                        </p>
+                    </div>
+                    
+                    <div class="pdf-display-containers">
+                        <div class="pdf-container">
+                            <div class="pdf-header">
+                                <h3>Tableau de compétences E5</h3>
+                                <button class="download-btn" onclick="window.open('image/tableau-competences.pdf', '_blank')">
+                                    <i class="fas fa-download"></i>
+                                    Télécharger le PDF
+                                </button>
+                            </div>
+                            <div class="pdf-content">
+                                <img src="image/tableau-competences_page-0001.jpg" alt="Tableau de compétences E5" title="Tableau de compétences E5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section E6 Système -->
+        <section id="e6-systeme" class="section-full">
+            <div class="section-container">
+                <h2 class="section-title">E6 - Épreuve de gestion système</h2>
+                <div class="e6-content">
+                    <div class="info-box">
+                        <h3>Gestion des systèmes d'information</h3>
+                        <p>
+                            Cette épreuve pratique évalue les compétences dans l'administration, la maintenance et la sécurisation des systèmes d'information et des infrastructures serveur.
+                        </p>
+                    </div>
+                    
+                    <div class="pdf-display-containers">
+                        <div class="pdf-container">
+                            <div class="pdf-header">
+                                <h3>Support de Système E6</h3>
+                            </div>
+                            <div class="pdf-content">
+                                <div class="download-area">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <h4>BTS SIO E6 SYSTEME HEINY CLEMENT</h4>
+                                    <button class="download-btn" onclick="window.open('image/BTS SIO E6 SYSTEME HEINY CLEMENT.pdf', '_blank')">
+                                        <i class="fas fa-download"></i>
+                                        Télécharger le PDF
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="pdf-container">
+                            <div class="pdf-header">
+                                <h3>Rapport de Système E6</h3>
+                            </div>
+                            <div class="pdf-content">
+                                <div class="download-area">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <h4>System</h4>
+                                    <button class="download-btn" onclick="window.open('image/system.pdf', '_blank')">
+                                        <i class="fas fa-download"></i>
+                                        Télécharger le PDF
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section E6 Réseau -->
+        <section id="e6-reseau" class="section-full">
+            <div class="section-container">
+                <h2 class="section-title">E6 - Épreuve de gestion réseau</h2>
+                <div class="e6-content">
+                    <div class="info-box">
+                        <h3>Gestion des infrastructures réseau</h3>
+                        <p>
+                            Cette épreuve pratique évalue les compétences dans la configuration, la gestion et la sécurisation des infrastructures réseau et des équipements de communication.
+                        </p>
+                    </div>
+                    
+                    <div class="pdf-display-containers">
+                        <div class="pdf-container">
+                            <div class="pdf-header">
+                                <h3>Support de Réseau E6</h3>
+                            </div>
+                            <div class="pdf-content">
+                                <div class="download-area">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <h4>BTS SIO E6 RESEAU HEINY CLEMENT</h4>
+                                    <button class="download-btn" onclick="window.open('image/BTS SIO E6 RESEAU HEINY CLEMENT.pdf', '_blank')">
+                                        <i class="fas fa-download"></i>
+                                        Télécharger le PDF
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="pdf-container">
+                            <div class="pdf-header">
+                                <h3>Rapport de Réseau E6</h3>
+                            </div>
+                            <div class="pdf-content">
+                                <div class="download-area">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <h4>Reseau</h4>
+                                    <button class="download-btn" onclick="window.open('image/reseau.pdf', '_blank')">
+                                        <i class="fas fa-download"></i>
+                                        Télécharger le PDF
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Veille Technologique -->
+        <section id="veille" class="section-full">
+            <div class="section-container">
+                <h2 class="section-title">Veille Technologique</h2>
+                <div class="veille-content">
+                    <div class="info-box">
+                        <h3>Sujet de veille technologique</h3>
+                        <h4>L'évolution des intelligences artificielles génératives : Claude AI</h4>
+                        
+                        <div class="veille-section">
+                            <h5>🔹 Présentation du sujet</h5>
+                            <p>
+                                Dans le cadre de ma veille technologique, j'ai choisi de suivre l'évolution des intelligences artificielles génératives, notamment Claude AI développé par l'entreprise Anthropic.
+                            </p>
+                            <p>
+                                Ce sujet m'intéresse car les IA prennent une place de plus en plus importante dans le domaine informatique et professionnel. Elles permettent d'automatiser certaines tâches, d'assister les utilisateurs et d'améliorer la productivité dans les entreprises.
+                            </p>
+                        </div>
+                        
+                        <div class="veille-section">
+                            <h5>🔹 Pourquoi ce sujet ?</h5>
+                            <p>
+                                J'ai choisi ce sujet car l'intelligence artificielle est aujourd'hui un domaine en pleine évolution.
+                            </p>
+                            <p>
+                                Les nouvelles IA comme Claude, ChatGPT ou Copilot sont de plus en plus utilisées dans les entreprises, notamment pour l'assistance, l'analyse de données ou l'automatisation.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3>Outils de veille</h3>
+                        <div class="veille-tools">
+                            <div class="tool-item">
+                                <i class="fab fa-youtube"></i>
+                                <div class="tool-info">
+                                    <h4>YouTube - BenBK</h4>
+                                    <p>Chaîne YouTube pour suivre les actualités sur l'IA et les technologies émergentes</p>
+                                    <a href="https://www.youtube.com/@BenBK/videos" target="_blank" class="tool-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        youtube.com/@BenBK
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="tool-item">
+                                <i class="fas fa-newspaper"></i>
+                                <div class="tool-info">
+                                    <h4>FrAndroid - Anthropic Claude AI</h4>
+                                    <p>Article détaillé sur Claude AI et ses fonctionnalités</p>
+                                    <a href="https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3093665_pourquoi-claude-fait-chanter-certains-utilisateurs" target="_blank" class="tool-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        frandroid.com - Claude AI
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="tool-item">
+                                <i class="fab fa-google"></i>
+                                <div class="tool-info">
+                                    <h4>Google Alerts</h4>
+                                    <p>Alertes personnalisées pour suivre les dernières actualités sur l'IA générative</p>
+                                    <a href="https://www.google.fr/alerts#" target="_blank" class="tool-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        google.fr/alerts
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section BTS SIO -->
+        <section id="bts-sio" class="section-full">
+            <div class="section-container">
+                <h2 class="section-title">BTS SIO</h2>
+                <div class="bts-content">
+                    <div class="info-box">
+                        <h3>Présentation du BTS SIO</h3>
+                        <p>
+                            Le BTS Services Informatiques aux Organisations (SIO) est un diplôme de l'enseignement supérieur français de niveau Bac+2, conçu pour former des spécialistes des services informatiques aux organisations, qu'elles soient commerciales, industrielles, de services, ou administratives. Ce diplôme vise à répondre aux besoins croissants des entreprises en matière de gestion de leur système d'information.
+                        </p>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3>Objectifs du BTS SIO</h3>
+                        <p>
+                            Le BTS SIO a pour objectif de former des techniciens capables de gérer et d'optimiser le système d'information d'une organisation. Les compétences acquises durant la formation permettent aux diplômés de s'adapter aux changements technologiques et organisationnels, d'assurer la maintenance des équipements informatiques, de développer de nouvelles applications, et de sécuriser les systèmes d'information.
+                        </p>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3>Spécialisations</h3>
+                        <p>
+                            Le BTS SIO propose deux spécialités, permettant de se concentrer sur des compétences spécifiques selon les aspirations professionnelles de chacun :
+                        </p>
+                    </div>
+                    
+                    <div class="specialization-boxes">
+                        <div class="specialization-box">
+                            <h4>� Solutions Logicielles et Applications Métiers (SLAM)</h4>
+                            <p>
+                                Cette spécialité se concentre sur la conception et le développement d'applications, l'intégration de systèmes, la gestion de projets informatiques, et la maintenance de solutions applicatives. Elle vise à former des développeurs d'applications, des analystes programmeurs, ou encore des gestionnaires de bases de données.
+                            </p>
+                        </div>
+                        
+                        <div class="specialization-box">
+                            <h4>🖥️ Solutions d'Infrastructure, Systèmes et Réseaux (SISR)</h4>
+                            <p>
+                                Cette option se focalise sur l'installation, la configuration, la gestion et la sécurisation des infrastructures réseaux et systèmes. Les diplômés peuvent prétendre à des postes tels que technicien réseau, administrateur systèmes et réseaux, ou consultant en sécurité informatique.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3>Débouchés Professionnels</h3>
+                        <p>
+                            Les titulaires d'un BTS SIO peuvent intégrer directement le marché du travail ou poursuivre leurs études, souvent vers une licence professionnelle, un bachelor spécialisé, ou parfois même une école d'ingénieurs. Sur le marché de l'emploi, ils sont prêts à occuper diverses fonctions dans le secteur informatique, telles que :
+                        </p>
+                        <ul>
+                            <li>Développeur web/mobile</li>
+                            <li>Administrateur systèmes et réseaux</li>
+                            <li>Technicien support informatique</li>
+                            <li>Analyste cyber sécurité</li>
+                            <li>Gestionnaire de base de données</li>
+                            <li>Chef de projet IT junior</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3>Poursuite d'Études</h3>
+                        <p>
+                            Bien que le BTS SIO soit principalement conçu pour une insertion professionnelle rapide, les diplômés ont également la possibilité de poursuivre leurs études, notamment en licences professionnelles dans le domaine de l'informatique, ce qui peut leur permettre de se spécialiser davantage ou d'accéder à des postes d'encadrement à terme.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="section-full">
+            <div class="section-container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="info-box">
+                        <h3>Me contacter</h3>
+                        <p>
+                            N'hésitez pas à me contacter pour toute question professionnelle ou pour discuter d'opportunités de collaboration.
+                        </p>
+                        
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <div class="contact-details">
+                                    <h4>LinkedIn</h4>
+                                    <a href="https://www.linkedin.com/in/clement-heiny" target="_blank" class="contact-link">
+                                        linkedin.com/in/clement-heiny
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <a href="mailto:clement.hny@gmail.com" class="contact-link">
+                                        clement.hny@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Clément Heiny - Portfolio BTS SIO</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
